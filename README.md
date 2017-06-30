@@ -6,15 +6,24 @@
 
 This is a website where users may enter a medical issue (ie: “sore throat”, "rash", etc.) into a form, submit it, and receive a list of doctors nearby who can treat their medical issue. This app uses the BetterDoctor API to retrieve this information.
 
+### Specs
+* User enters a medical issue or condition, and they get a list of doctors nearby.
+  Example input: "heart disease"
+  Example output:
+    * Dr. Williams
+    * Dr. Adams
+    * Dr. McKinney
+    * ...
+
 ### Setup/Installation Requirements
 
 * Open CMD/Terminal
-* git clone `https://github.com/kristendynamite/personal-portfolio.git`
+* git clone `https://github.com/kristendynamite/Doctor-Lookup.git`
 * Open index.html file in a browser such as Google Chrome
 
 OR...
 
-* View on rawgit at [http://rawgit.com/kristendynamite/personal-portfolio/master/index.html](http://rawgit.com/kristendynamite/personal-portfolio/master/index.html)
+* View on rawgit at [http://rawgit.com/kristendynamite/Doctor-Lookup/master/index.html](http://rawgit.com/kristendynamite/Doctor-Lookup/master/index.html)
 
 ### Support and contact details
 
@@ -26,7 +35,6 @@ OR...
 
 * HTML
 * CSS
-* Bootstrap
 * Javascript
 * jQuery
 
@@ -34,6 +42,7 @@ OR...
 **Other Technologies:**
 
 * Google Fonts
+* Bootstrap
 * Gulp
 * Node.js
 * Bower
