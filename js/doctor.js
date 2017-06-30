@@ -1,9 +1,8 @@
 var apiKey = require('./../.env').apiKey;
 
 //make an API request and display results
-function Doctor(name) {
-  this.name = name;
-}
+Doctor = function(){
+};
 
 Doctor.prototype.lastName = function(goal) {
   var output = [];
@@ -11,11 +10,12 @@ Doctor.prototype.lastName = function(goal) {
    .then(function(result) {
       for (var i = 0; i <=20; i++) {
         output.push(result.data[i].profile.last_name);
+        console.log(output);
+        return output;
       }
-    })
-   .fail(function(error){
+    }).fail(function(error){
       console.log("fail");
   });
-  return output;
 };
 exports.doctorModule = Doctor;
+// exports.getDoctors = function(medicalIssue)

@@ -48,6 +48,10 @@ OR...
 * Bower
 * Browserify
 
+### Bugs
+
+Getting the error message in the console that lastName is not defined. I was able to display the list of doctors in my console at first, but now only one name will disply. None will display on the page. Will be working to get this up and running soon.
+
 ### License
 
 This project is licensed under the MIT License
