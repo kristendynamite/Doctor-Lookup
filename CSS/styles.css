@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../img/background.jpg);
+}
+
+h1 {
+  font-family: 'Arima Madurai', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid paleturquoise;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.btn-success {
+  background-color: paleturquoise;
+  border: 1px solid turquoise;
+  border-radius: 5px;
+}
+
+.btn-success:hover {
+  background-color: tomato;
+}
