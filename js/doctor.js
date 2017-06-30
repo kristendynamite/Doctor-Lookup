@@ -1,11 +1,22 @@
 //make an API request and display results
 
-function Calculator(constructorParameter) {
+// exports.getDoctors = function(medicalIssue) {
+//   $.get('https://api.betterdoctor.com/2016-03-01/doctors?query='+ medicalIssue+'&location=45.5231%2C-122.6765%2C%205&user_location=45.5231%2C-122.6765&skip=0&limit=20&user_key=' + apiKey)
+//    .then(function(result) {
+//       console.log(result);
+//     })
+//    .fail(function(error){
+//       console.log("fail");
+//     });
+// };
+
+function Doctor() {
   // constructor
 }
 
-Calculator.prototype.pingPong = function(methodParameter) {
+Doctor.prototype.getDoctors = function() {
+  console.log("Hi! I'm a doctor object.");
   // method code
 };
 
-exports.calculatorModule = Calculator;
+exports.doctorModule = Doctor;
