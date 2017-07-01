@@ -4,15 +4,14 @@ var apiKey = require('./../.env').apiKey;
 Doctor = function(){
 };
 
-Doctor.prototype.lastName = function(goal) {
+Doctor.prototype.lastName = function(goal, displayDoctors) {
   var output = [];
-  $.get('https://api.betterdoctor.com/2016-03-01/doctors?query='+ goal+'&location=45.5231%2C-122.6765%2C%205&user_location=45.5231%2C-122.6765&skip=0&limit=20&user_key=' + apiKey)
+  $.get('https://api.betterdoctor.com/2016-03-01/doctors?query='+ goal+'&location=or-portland&skip=0&limit=20&user_key=' + apiKey)
    .then(function(result) {
-      for (var i = 0; i <=20; i++) {
+      for (var i = 0; i < result.data.length; i++) {
         output.push(result.data[i].profile.last_name);
-        console.log(output);
-        return output;
       }
+      displayDoctors(output);
     }).fail(function(error){
       console.log("fail");
   });
