@@ -6,6 +6,8 @@
 
 This is a website where users may enter a medical issue (ie: “sore throat”, "rash", etc.) into a form, submit it, and receive a list of doctors nearby who can treat their medical issue. This app uses the BetterDoctor API to retrieve this information.
 
+<img src="https://raw.githubusercontent.com/kristendynamite/Doctor-Lookup/master/img/df-screenshot.png">
+
 ### Specs
 * User enters a medical issue or condition, and they get a list of doctors nearby.
   Example input: "heart disease"
