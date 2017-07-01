@@ -21,7 +21,9 @@ This is a website where users may enter a medical issue (ie: “sore throat”, 
 
 * Open CMD/Terminal
 * git clone `https://github.com/kristendynamite/Doctor-Lookup.git`
-* Open index.html file in a browser such as Google Chrome
+* Run 'npm install' in your chosen terminal application
+* Run 'bower install' in your chosen terminal application
+* Run 'gulp serve' in your chosen terminal application, then wait for your browser to be opened to the appropriate page.
 
 OR...
 
